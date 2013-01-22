@@ -1,0 +1,13 @@
+@charset "UTF-8";
+#servlist img { display:none;}
+#servlist { float:left; }
+#servtitle:first-child { margin-top:0px;}
+#servlist >  li { clear:both; max-height:20px; min-width:300px; font-size:16px;}
+#servlist > li > a:hover { font-weight:bold;}
+#servlist > li > a  > .grouptype { margin-right:4px;}
+#servlist > li > a  > br { display:none;}
+#rightcontent {background: -webkit-linear-gradient(top, rgba(255,255,235,1) 0%,rgba(255,255,255,0) 100%);}
+.blockntu {font-size:16px; padding:20px 0px 0px 30px;}
+.blockntu > label { margin-right:10px;}
+.blockntu > a { color:#C03; cursor:pointer; margin-right:12px; font-weight:bold; }
+.blockntu > a:hover { text-decoration:underline;}

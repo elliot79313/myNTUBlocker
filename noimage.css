@@ -1,13 +1,18 @@
 @charset "UTF-8";
 #servlist img { display:none;}
-#servlist { float:left; }
+#servlist { float:left; width:700px; margin-top:10px;}
 #servtitle:first-child { margin-top:0px;}
-#servlist >  li { clear:both; max-height:20px; min-width:300px; font-size:16px;}
+#servlist >  li {  max-height:20px; min-width:300px; font-size:16px;}
 #servlist > li > a:hover { font-weight:bold;}
+#servlist >  li:nth-child(even) { margin-right:15px; }
 #servlist > li > a  > .grouptype { margin-right:4px;}
 #servlist > li > a  > br { display:none;}
 #rightcontent {background: -webkit-linear-gradient(top, rgba(255,255,235,1) 0%,rgba(255,255,255,0) 100%);}
-.blockntu {font-size:16px; padding:20px 0px 0px 30px;}
-.blockntu > label { margin-right:10px;}
-.blockntu > a { color:#C03; cursor:pointer; margin-right:12px; font-weight:bold; }
-.blockntu > a:hover { text-decoration:underline;}
+.blocksearch { padding:20px 0px 10px 30px;}
+.blocksearch input { height:20px; font-size:16px; width:400px; padding:2px 5px; background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAABl0RVh0U29mdHdhcmUAUGFpbnQuTkVUIHYzLjUuND6NzHYAAAGoSURBVDhPhVM9TwJBEN09AqWNlZVRfoL8A4O1rYkoBGLUQCxQA4k1iTVRYy0IkVgAIfj1DzDYYI8ViQgWECpgnLdy53J8OMlm9/Zm3sy8NysFGxHJbre7US6VHl4rFdFsfgqnyyXcq26x7vWKNY/HgJ+UkrCPGYI/6nU6ioQpFPDTRTJJxXye7rJZOovHye/bpuurSxoMBg74YpkA6tzpdDYRHDs5pkajwXd/NhwO6bFcpsCOjwEz+GEFm5ULZEJme7AOlE7dUNC/S63W1xbfq0pGAA5xGo2qsudZu91Wrbw8P41VwR+LAuWh5/8scnhAmXQKbg6NgxWxFwoqwuYZE0jwu8/l4GaYZPLuFOeJhGIbhM2y91pNtfBWraoWxjhg3dVPsD3Ner0eJ4hR+GCf+v2+XQUDQ2RAZ3ABtkEYDGUjM4KRACt7m7aT+AvIzgZ0hlRwBGHoGWdkNgE0EItIayrRF+u8BKnANgjjnr+57GVkngmiT5fGsMvGtpwBItVD0mdbk0ixPVoL2KeBWAC6PBMvbnSBIdJBioXC5OucV435gACCYLT5A6tJdPFXUA/EAAAAAElFTkSuQmCC); padding-left:25px;
+background-repeat: no-repeat;
+background-position: 5px 5px;}
+.popular {font-size:16px; padding:0px 0px 0px 30px;}
+.popular > label { margin-right:10px;}
+.popular > a { color:#C03; cursor:pointer; margin-right:12px; font-weight:bold; }
+.popular > a:hover { text-decoration:underline;}

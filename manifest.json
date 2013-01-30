@@ -2,15 +2,15 @@
   "name": "__MSG_appName__",
   "description": "__MSG_appDesc__",
   "default_locale": "zh_TW",
-  "version": "1.1.7",
+  "version": "2.1",
   "permissions": [
     "tabs"
   ],
   "content_scripts": [
         {
             "matches": ["https://my.ntu.edu.tw/*"],
-            "css": ["noimage.css"],
-            "js": ["core.js"]
+            "css": ["noimage.css", "jquery.autocomplete.css"],
+            "js": ["jquery.min.js", "jquery.autocomplete.pack.js", "output.js" ,"core.js"]
         }
   ],
    "icons": {
